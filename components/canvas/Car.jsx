@@ -1,9 +1,8 @@
-"use client"
+'use client';
 
 import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-
 
 const Car = () => {
     
@@ -54,8 +53,6 @@ const Car = () => {
       </mesh>
     )
 }
-
-
 
 const CarCanvas = () => {
   return (
